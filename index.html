@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Chat</title>
+        
+        <!--Libraries-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+
+        <!--Plugins-->
+       
+
+        <!--Theme specific styles-->
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!--Core jQuery-->
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    </head>
+    <body>
+
+        <div class="site-wrap">
+            <!-- header starts -->
+            <div class="header">
+                <div class="container-fluid h-100">
+                    <div class="row h-100">
+                        <div class="col-3 h-100">
+                            <div class="search-contact d-flex align-items-center h-100">
+                                <div class="search-form position-relative">
+                                    <input type="text" placeholder="Search contact" name="search">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="header-content d-flex justify-content-between">
+                                <div class="left d-flex">
+                                    <div class="profile-picture position-relative">
+                                        <span class="user_n">sk</span>
+                                        <span class="online-status"></span>
+                                        <!-- <img src="" alt=""> -->
+                                    </div>
+                                    <div class="user-data">
+                                        <h2>Apurba Das</h2>
+                                        <h3>Website and logo design</h3>
+                                    </div>
+                                    <div class="uers-time">
+                                        <p>08:30 PM  (GMT +5:30)</p>
+                                    </div>
+                                </div>
+                                <div class="right d-flex">
+                                    <div>
+                                        <div class="search-form position-relative">
+                                            <input type="text" placeholder="Search this conversation" name="searchconversation">
+                                            <i class="fa fa-search"></i>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <span class="dropdown-btn" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fa fa-ellipsis-h"></i>
+                                        </span>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#"><i class="fa fa-file" aria-hidden="true"></i> Media, Files & Links</a>
+                                            <a class="dropdown-item" href="#"><i class="fa fa-ban" aria-hidden="true"></i> Block this user</a>
+                                            <a class="dropdown-item" href="#"><i class="fa fa-eye-slash" aria-hidden="true"></i> Hide Contact</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header ends -->
+            <!-- main-content starts -->
+            <div class="main-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="sidebar">
+                                <div class="single-sidebar-item">
+                                    <div class="profile-picture position-relative">
+                                        <span class="user_n">sk</span>
+                                        <span class="online-status">sk</span>
+                                        <!-- <img src="" alt=""> -->
+                                    </div>
+                                    <div class="user-data">
+                                        <h2>Apurba Das</h2>
+                                        <h3>Website and logo design</h3>
+                                        <p>You: Okay adding you</p>
+                                    </div>
+                                    <div class="uers-time">
+                                        <p>08:30 PM</p>
+                                        <span class="numer">30</span>
+                                        <span class="star"><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                                    </div>
+                                </div><!-- single-sidebar-item ends -->
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="messages-section">
+                                <div class="single-message-section d-flex">
+                                    <div class="profile-picture position-relative">
+                                        <span class="user_n">sk</span>
+                                        <span class="online-status">sk</span>
+                                        <!-- <img src="" alt=""> -->
+                                    </div>
+                                    <div class="messages-section-inner position-relative">
+                                        <h2>Apurba Das</h2>
+                                        <p>Please let me ans Your Question.</p>
+                                        <ul>
+                                            <li>1.Company name is Marathon Electric India Pvt Ltd Its a subsidiary company of Regal Beloit.</li>
+                                            <li>2. Yes We have , But for this project No need to any Specific Design Guideline</li>
+                                            <li>3. Our MaiN competitors for this project is Havells, Bluestar, Voltas, Kenstar</li>
+                                            <li>4.For more Info You can visit our website www.regalbeloit.com</li>
+                                            <li>5.No specific Color required. But Design Should be simple & Attractive</li>
+                                            <li>6. In Logo Basically One Title is required only.</li>
+                                        </ul>
+                                        <div class="edited-shedule">
+                                            <span class="close-icon">x</span>
+                                            <p>Edited on Wednesday, <br/> November 4, 2020 12:38 AM</p>
+                                        </div>
+                                    </div>
+                                    <div class="message-right-content">
+                                        <div class="chat-time">
+                                            <span>08:30 PM</span>
+                                        </div>
+                                        <div class="dropdown">
+                                            <span class="dropdown-btn" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="fa fa-cog" aria-hidden="true"></i>
+                                            </span>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</a>
+                                                <a class="dropdown-item" href="#"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</a>
+                                                <a class="dropdown-item" href="#"><i class="fa fa-quote-left" aria-hidden="true"></i> Quote</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- single-message-section ends -->
+                            </div><!-- messages-section ends -->
+                            <div class="messages-typing-section">
+                                <div class="file-upload">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-paperclip" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"/>
+                                    </svg>
+                                </div>
+                                <div class="chat-box position-relative">
+                                    <textarea name="chat" id="" cols="30" rows="10"></textarea>
+                                    <div class="message-info">
+                                        <div class="dropdown">
+                                            <span class="dropdown-btn" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="fa fa-cog" aria-hidden="true"></i>
+                                            </span>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <div class="custom-control custom-radio">
+                                                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                                    <label class="custom-control-label" for="customRadio1"> Send a message</label>
+                                                </div>
+                                                <div class="custom-control custom-radio">
+                                                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                                    <label class="custom-control-label" for="customRadio2"> Add a line break</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="smiley">
+                                        <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class="send-btn">
+                                    <button type="submit" value="submit">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- main-content ends -->
+            <!-- footer-section starts -->
+            <div class="footer-section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="left dropdown">
+                                <span class="dropdown-btn" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div class="profile-picture position-relative">
+                                        <span class="user_n">sk</span>
+                                        <span class="online-status">sk</span>
+                                        <!-- <img src="" alt=""> -->
+                                    </div>
+                                    <h3>John Doe <i class="fa fa-angle-up" aria-hidden="true"></i></h3>
+                                </span>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio1"> Send a message</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio2"> Add a line break</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="right dropdown">
+                                <span class="dropdown-btn" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div class="profile-picture position-relative">
+                                        <span class="online-status"></span> Online <i class="fa fa-angle-up" aria-hidden="true"></i>
+                                    </div>
+                                </span>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio1">Online</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio2"> Invisible</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-section ends -->
+        </div>
+
+        <!--Libraries-->
+        <script src="js/bootstrap.bundle.min.js"></script>       
+
+        <!--Plugins-->
+     
+
+        <!--Active & Custom JS-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
